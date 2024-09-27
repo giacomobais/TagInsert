@@ -1,0 +1,27 @@
+model:
+    name: "TagInsert"
+    bert:
+        model_name: "distilbert-base-cased"
+        device: "cuda"
+        BLOCK_SIZE_BERT: 100
+    BLOCK_SIZE: 53
+    BATCH_SIZE: 32
+    EPOCHS: 1
+    device: "cuda"
+    n_blocks: 8
+    embed_dim: 128
+    n_heads: 8
+    d_model: 768
+    dropout: 0.1
+    lr: 0.5
+    beta1: 0.9
+    beta2: 0.98
+    eps: 0.000000001
+    warmup: 400
+    src_pad_idx: 0
+    trg_pad_idx: 0
+    train_file: "data/POS/fake_translate_train.tagged"
+    val_file: "data/POS/fake_translate_val.tagged"
+    test_file: "data/POS/fake_translate_test.tagged"
+
+    

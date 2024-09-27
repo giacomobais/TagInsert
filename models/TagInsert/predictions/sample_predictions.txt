@@ -1,0 +1,2500 @@
+Sentence 1:
+Golden: ['B', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 2:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 3:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 4:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([7, 4, 2, 5, 3, 6, 1])
+
+Sentence 5:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 6:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 7:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['C', 'D', 'E', 'F', '.']
+Ordering: tensor([2, 4, 3, 5, 1])
+
+Sentence 8:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([ 5,  3,  7,  4, 10,  9,  2,  6,  8,  1])
+
+Sentence 9:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 10:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 11:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 12:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 13:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.']
+Ordering: tensor([4, 3, 5, 2, 1])
+
+Sentence 14:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 7, 5, 8, 6, 2, 1])
+
+Sentence 15:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([10,  6,  4,  7,  2, 11,  9,  3,  5,  8,  1])
+
+Sentence 16:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 17:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 18:
+Golden: ['B', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 19:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 20:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+Ordering: tensor([2, 1])
+
+Sentence 21:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 22:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 23:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 24:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 25:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 26:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 27:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 28:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([7, 4, 2, 5, 3, 6, 1])
+
+Sentence 29:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([7, 4, 2, 5, 3, 6, 1])
+
+Sentence 30:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 31:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 32:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 33:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([4, 2, 5, 3, 7, 6, 1])
+
+Sentence 34:
+Golden: ['B', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 35:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 36:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 37:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 38:
+Golden: ['A', 'B', '.']
+Predicted: ['E', 'B', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 39:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 40:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 41:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 42:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 43:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 44:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 45:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 46:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 47:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 48:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['E', 'B', 'C', '.']
+Ordering: tensor([4, 3, 2, 1])
+
+Sentence 49:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 4, 3, 6, 5, 1])
+
+Sentence 50:
+Golden: ['B', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 51:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 52:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 53:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['C', 'D', 'E', 'F', '.']
+Ordering: tensor([2, 4, 3, 5, 1])
+
+Sentence 54:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 55:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 56:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 57:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 58:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 59:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 5, 1])
+
+Sentence 60:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 61:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 62:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 63:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 64:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([4, 3, 7, 6, 2, 5, 1])
+
+Sentence 65:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 66:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 67:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 68:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 69:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 70:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 71:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 72:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 73:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 74:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 75:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+Ordering: tensor([2, 1])
+
+Sentence 76:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 77:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 78:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 79:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', '.']
+Ordering: tensor([6, 4, 3, 5, 2, 1])
+
+Sentence 80:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 81:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 82:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 83:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 84:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 85:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 4, 3, 6, 5, 1])
+
+Sentence 86:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 87:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', '.']
+Ordering: tensor([4, 6, 3, 7, 8, 2, 5, 1])
+
+Sentence 88:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 89:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 90:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['C', 'D', 'E', 'F', '.']
+Ordering: tensor([2, 4, 3, 5, 1])
+
+Sentence 91:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 92:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 93:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['C', 'D', 'E', 'F', '.']
+Ordering: tensor([2, 4, 3, 5, 1])
+
+Sentence 94:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([4, 3, 7, 6, 2, 5, 1])
+
+Sentence 95:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 96:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 97:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', '.']
+Ordering: tensor([6, 4, 2, 5, 3, 8, 7, 1])
+
+Sentence 98:
+Golden: ['A', 'B', 'C', 'D', '.']
+Predicted: ['E', 'B', 'C', 'D', '.']
+Ordering: tensor([5, 3, 2, 4, 1])
+
+Sentence 99:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 100:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 101:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 102:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 103:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 104:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 105:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 106:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 107:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 108:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 109:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 110:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 111:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 112:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 113:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 114:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 115:
+Golden: ['A', 'B', '.']
+Predicted: ['E', 'B', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 116:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([4, 2, 5, 3, 6, 1])
+
+Sentence 117:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', '.']
+Ordering: tensor([6, 4, 3, 5, 2, 1])
+
+Sentence 118:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 119:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 120:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['E', 'B', 'C', '.']
+Ordering: tensor([4, 3, 2, 1])
+
+Sentence 121:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 122:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 123:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 124:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 125:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 126:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 127:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 128:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([4, 2, 5, 3, 6, 1])
+
+Sentence 129:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 130:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', '.']
+Ordering: tensor([6, 4, 3, 5, 2, 1])
+
+Sentence 131:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 132:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', '.']
+Ordering: tensor([4, 6, 3, 7, 8, 2, 5, 1])
+
+Sentence 133:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 134:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 135:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([8, 5, 4, 7, 3, 9, 6, 2, 1])
+
+Sentence 136:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+Ordering: tensor([2, 1])
+
+Sentence 137:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 138:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 139:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 140:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 141:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 142:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 143:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 144:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 145:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 146:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 147:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 5, 1])
+
+Sentence 148:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 149:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 150:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 151:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 152:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 153:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 154:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([7, 4, 2, 5, 3, 6, 1])
+
+Sentence 155:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([10,  6,  4,  7,  2, 11,  9,  3,  5,  8,  1])
+
+Sentence 156:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([ 5,  3,  7,  4, 10,  9,  2,  6,  8,  1])
+
+Sentence 157:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 158:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 159:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 160:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 161:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([4, 2, 5, 3, 7, 6, 1])
+
+Sentence 162:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 163:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['E', 'B', 'C', '.']
+Ordering: tensor([4, 3, 2, 1])
+
+Sentence 164:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 165:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 166:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 167:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', '.']
+Ordering: tensor([6, 4, 3, 5, 2, 1])
+
+Sentence 168:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 169:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 170:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 171:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 172:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 173:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([3, 6, 4, 7, 5, 2, 1])
+
+Sentence 174:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.']
+Ordering: tensor([4, 3, 5, 2, 1])
+
+Sentence 175:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 176:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 177:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([4, 2, 5, 3, 6, 1])
+
+Sentence 178:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 179:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 180:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([7, 4, 2, 5, 3, 6, 1])
+
+Sentence 181:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 182:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 183:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 184:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 185:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 186:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 187:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 4, 3, 6, 5, 1])
+
+Sentence 188:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 189:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 190:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 191:
+Golden: ['A', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 192:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 193:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 194:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 195:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 196:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 197:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 198:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 199:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([4, 2, 5, 3, 6, 1])
+
+Sentence 200:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 201:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 202:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 203:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 204:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([3, 6, 4, 7, 5, 2, 1])
+
+Sentence 205:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 206:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 207:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 208:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 209:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 210:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 211:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([4, 3, 7, 6, 2, 5, 1])
+
+Sentence 212:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', 'H', '.', '.']
+Ordering: tensor([ 9,  5,  4,  7,  2, 10,  8,  3,  6,  1])
+
+Sentence 213:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([7, 4, 2, 5, 3, 6, 1])
+
+Sentence 214:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 215:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.']
+Ordering: tensor([4, 3, 5, 2, 1])
+
+Sentence 216:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 217:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 218:
+Golden: ['D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 219:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', '.']
+Ordering: tensor([4, 6, 3, 7, 8, 2, 5, 1])
+
+Sentence 220:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 221:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 222:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 7, 5, 8, 6, 2, 1])
+
+Sentence 223:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 224:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 225:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 226:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 227:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 228:
+Golden: ['A', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 229:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 230:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 231:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([4, 2, 5, 3, 7, 6, 1])
+
+Sentence 232:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['C', 'D', 'E', 'F', '.']
+Ordering: tensor([2, 4, 3, 5, 1])
+
+Sentence 233:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 234:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.']
+Ordering: tensor([4, 3, 5, 2, 1])
+
+Sentence 235:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 236:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 237:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([3, 6, 4, 8, 9, 2, 5, 7, 1])
+
+Sentence 238:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 239:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([4, 2, 5, 3, 7, 6, 1])
+
+Sentence 240:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 241:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 242:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 7, 5, 8, 6, 2, 1])
+
+Sentence 243:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 244:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 245:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', '.']
+Ordering: tensor([4, 6, 3, 7, 8, 2, 5, 1])
+
+Sentence 246:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 247:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 248:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 249:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['E', 'B', 'C', '.']
+Ordering: tensor([4, 3, 2, 1])
+
+Sentence 250:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 251:
+Golden: ['A', 'B', 'C', 'D', '.']
+Predicted: ['E', 'B', 'C', 'D', '.']
+Ordering: tensor([5, 3, 2, 4, 1])
+
+Sentence 252:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 253:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 254:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 255:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 256:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 257:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([4, 2, 5, 3, 6, 1])
+
+Sentence 258:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 259:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([8, 5, 4, 7, 3, 9, 6, 2, 1])
+
+Sentence 260:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', '.']
+Ordering: tensor([6, 4, 2, 5, 3, 8, 7, 1])
+
+Sentence 261:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 262:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 263:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 264:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'C', 'H', '.', '.']
+Ordering: tensor([5, 3, 2, 4, 1])
+
+Sentence 265:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 266:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 267:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 268:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 269:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 270:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 271:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 272:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 273:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 274:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 275:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 276:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 277:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 278:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 279:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 280:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 281:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 282:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 283:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([ 5,  3,  7,  4, 10,  9,  2,  6,  8,  1])
+
+Sentence 284:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 285:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 286:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 7, 5, 8, 6, 2, 1])
+
+Sentence 287:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([8, 5, 4, 7, 3, 9, 6, 2, 1])
+
+Sentence 288:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 289:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 290:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 291:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['C', 'D', 'E', 'F', '.']
+Ordering: tensor([2, 4, 3, 5, 1])
+
+Sentence 292:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 293:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 294:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 295:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 296:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 297:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 298:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 299:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([3, 6, 4, 8, 9, 2, 5, 7, 1])
+
+Sentence 300:
+Golden: ['A', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 301:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 302:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([8, 5, 4, 7, 3, 9, 6, 2, 1])
+
+Sentence 303:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 304:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 305:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 306:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 307:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 308:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 309:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 310:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 311:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 5, 1])
+
+Sentence 312:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 313:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 7, 5, 8, 6, 2, 1])
+
+Sentence 314:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 315:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 316:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', 'H', '.', '.']
+Ordering: tensor([ 9,  5,  4,  7,  2, 10,  8,  3,  6,  1])
+
+Sentence 317:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([ 5,  3,  7,  4, 10,  9,  2,  6,  8,  1])
+
+Sentence 318:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'C', 'H', '.', '.']
+Ordering: tensor([5, 3, 2, 4, 1])
+
+Sentence 319:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 320:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 321:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 322:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.']
+Ordering: tensor([4, 3, 5, 2, 1])
+
+Sentence 323:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 324:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 325:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 326:
+Golden: ['A', 'B', '.']
+Predicted: ['E', 'B', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 327:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 328:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 329:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 330:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([4, 2, 5, 3, 6, 1])
+
+Sentence 331:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 5, 1])
+
+Sentence 332:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 333:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([4, 2, 5, 3, 7, 6, 1])
+
+Sentence 334:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 335:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 336:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 337:
+Golden: ['B', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 338:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 339:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 340:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 341:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 342:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['E', 'B', 'C', '.']
+Ordering: tensor([4, 3, 2, 1])
+
+Sentence 343:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 344:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([4, 2, 5, 3, 6, 1])
+
+Sentence 345:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', '.']
+Ordering: tensor([6, 4, 2, 5, 3, 8, 7, 1])
+
+Sentence 346:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 347:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 348:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 5, 1])
+
+Sentence 349:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 4, 3, 6, 5, 1])
+
+Sentence 350:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 351:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 352:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 353:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 354:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 355:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([3, 6, 4, 8, 9, 2, 5, 7, 1])
+
+Sentence 356:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 357:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 358:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 359:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 360:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 361:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 362:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 363:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 364:
+Golden: ['A', 'B', '.']
+Predicted: ['E', 'B', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 365:
+Golden: ['B', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 366:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 5, 1])
+
+Sentence 367:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+Ordering: tensor([2, 1])
+
+Sentence 368:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 369:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 370:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 371:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([4, 3, 7, 6, 2, 5, 1])
+
+Sentence 372:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['C', 'D', 'E', 'F', '.']
+Ordering: tensor([2, 4, 3, 5, 1])
+
+Sentence 373:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['E', 'B', 'C', '.']
+Ordering: tensor([4, 3, 2, 1])
+
+Sentence 374:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 7, 5, 8, 6, 2, 1])
+
+Sentence 375:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([3, 6, 4, 7, 5, 2, 1])
+
+Sentence 376:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 377:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 378:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 379:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 380:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([4, 3, 7, 6, 2, 5, 1])
+
+Sentence 381:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 382:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 383:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 384:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 385:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 386:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 5, 1])
+
+Sentence 387:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 388:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([3, 6, 4, 7, 5, 2, 1])
+
+Sentence 389:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 390:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 391:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 392:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 393:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 394:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 395:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 396:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 397:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 398:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 399:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 400:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 401:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+Ordering: tensor([2, 1])
+
+Sentence 402:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 403:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 404:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+Ordering: tensor([2, 1])
+
+Sentence 405:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 406:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 407:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', 'H', '.', '.']
+Ordering: tensor([ 9,  5,  4,  7,  2, 10,  8,  3,  6,  1])
+
+Sentence 408:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 409:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 410:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 7, 5, 8, 6, 2, 1])
+
+Sentence 411:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 412:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 413:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 414:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([8, 5, 4, 7, 3, 9, 6, 2, 1])
+
+Sentence 415:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'C', 'H', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 416:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 417:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 4, 3, 6, 5, 1])
+
+Sentence 418:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 419:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 420:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([7, 4, 2, 5, 3, 6, 1])
+
+Sentence 421:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 422:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', 'H', '.', '.']
+Ordering: tensor([ 9,  5,  4,  7,  2, 10,  8,  3,  6,  1])
+
+Sentence 423:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 424:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 425:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 426:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 427:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 428:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 429:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 430:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 431:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['E', 'B', 'C', '.']
+Ordering: tensor([4, 3, 2, 1])
+
+Sentence 432:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([2, 7, 4, 3, 5, 6, 1])
+
+Sentence 433:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 434:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 435:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 436:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 437:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 438:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 439:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 440:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 441:
+Golden: ['D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 442:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 443:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['E', 'B', 'C', '.']
+Ordering: tensor([4, 3, 2, 1])
+
+Sentence 444:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 445:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', '.', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 446:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', 'H', '.', '.']
+Ordering: tensor([ 9,  5,  4,  7,  2, 10,  8,  3,  6,  1])
+
+Sentence 447:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+Ordering: tensor([2, 1])
+
+Sentence 448:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 449:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+Ordering: tensor([4, 2, 5, 3, 6, 1])
+
+Sentence 450:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', '.']
+Ordering: tensor([4, 6, 3, 7, 8, 2, 5, 1])
+
+Sentence 451:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([4, 2, 5, 3, 7, 6, 1])
+
+Sentence 452:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 453:
+Golden: ['G', 'H', '.']
+Predicted: ['.', 'H', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 454:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['C', 'H', '.', 'J', '.']
+Ordering: tensor([3, 2, 4, 5, 1])
+
+Sentence 455:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'C', 'H', '.']
+Ordering: tensor([2, 5, 4, 3, 1])
+
+Sentence 456:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.']
+Ordering: tensor([4, 3, 5, 2, 1])
+
+Sentence 457:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 458:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 459:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['C', 'D', 'E', '.']
+Ordering: tensor([3, 4, 2, 1])
+
+Sentence 460:
+Golden: ['B', 'C', '.']
+Predicted: ['B', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 461:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 462:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 463:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', 'H', '.', '.']
+Ordering: tensor([4, 6, 3, 7, 8, 2, 5, 1])
+
+Sentence 464:
+Golden: ['C', 'D', '.']
+Predicted: ['C', 'D', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 465:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', '.', 'H', '.']
+Ordering: tensor([4, 3, 5, 6, 2, 1])
+
+Sentence 466:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 467:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([2, 6, 4, 3, 5, 1])
+
+Sentence 468:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 469:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 470:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 471:
+Golden: ['G', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 472:
+Golden: ['A', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 473:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 474:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 475:
+Golden: ['A', 'B', '.']
+Predicted: ['E', 'B', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 476:
+Golden: ['A', 'B', 'C', 'D', '.']
+Predicted: ['E', 'B', 'C', 'D', '.']
+Ordering: tensor([5, 3, 2, 4, 1])
+
+Sentence 477:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 478:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['C', 'D', 'E', 'F', '.', '.']
+Ordering: tensor([2, 4, 3, 6, 5, 1])
+
+Sentence 479:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 480:
+Golden: ['J', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 481:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', '.']
+Ordering: tensor([6, 4, 3, 5, 2, 1])
+
+Sentence 482:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 483:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([5, 3, 8, 7, 2, 4, 6, 1])
+
+Sentence 484:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'C', 'H', '.', '.']
+Ordering: tensor([4, 3, 7, 6, 2, 5, 1])
+
+Sentence 485:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 486:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', '.']
+Ordering: tensor([6, 4, 3, 5, 2, 1])
+
+Sentence 487:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+Ordering: tensor([2, 1])
+
+Sentence 488:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+Ordering: tensor([3, 2, 4, 1])
+
+Sentence 489:
+Golden: ['I', 'J', '.']
+Predicted: ['.', 'C', '.']
+Ordering: tensor([3, 2, 1])
+
+Sentence 490:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 491:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['E', 'B', 'C', 'D', 'E', 'B', '.', '.']
+Ordering: tensor([6, 4, 2, 5, 3, 8, 7, 1])
+
+Sentence 492:
+Golden: ['H', 'I', '.']
+Predicted: ['H', '.', '.']
+Ordering: tensor([2, 3, 1])
+
+Sentence 493:
+Golden: ['F', '.']
+Predicted: ['D', '.']
+Ordering: tensor([2, 1])
+
+Sentence 494:
+Golden: ['I', '.']
+Predicted: ['.', '.']
+Ordering: tensor([2, 1])
+
+Sentence 495:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'C', 'H', '.', 'J', '.']
+Ordering: tensor([6, 3, 2, 4, 5, 1])
+
+Sentence 496:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'C', 'H', '.', '.']
+Ordering: tensor([5, 3, 2, 4, 1])
+
+Sentence 497:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', '.', 'C', '.']
+Ordering: tensor([2, 3, 4, 1])
+
+Sentence 498:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', 'H', '.', 'J', '.']
+Ordering: tensor([ 5,  3,  7,  4, 10,  9,  2,  6,  8,  1])
+
+Sentence 499:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['C', 'H', '.', '.']
+Ordering: tensor([4, 2, 3, 1])
+
+Sentence 500:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'C', 'H', '.', '.']
+Ordering: tensor([5, 3, 2, 4, 1])
+

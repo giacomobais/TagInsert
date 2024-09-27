@@ -1,0 +1,2000 @@
+Sentence 1:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 2:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 3:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 4:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+
+Sentence 5:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 6:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 7:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 8:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 9:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 10:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 11:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 12:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['G', 'H', 'I', 'J', '.']
+
+Sentence 13:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 14:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 15:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 16:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 17:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 18:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 19:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 20:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'G', 'H', '.']
+
+Sentence 21:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 22:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 23:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 24:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 25:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['B', '.', '.', '.']
+
+Sentence 26:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 27:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 28:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 29:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 30:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+
+Sentence 31:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 32:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 33:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 34:
+Golden: ['A', '.']
+Predicted: ['.', '.']
+
+Sentence 35:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 36:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 37:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 38:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', '.', '.']
+
+Sentence 39:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 40:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 41:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 42:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 43:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 44:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 45:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 46:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 47:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 48:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 49:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', 'G', '.']
+
+Sentence 50:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 51:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 52:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 53:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 54:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+
+Sentence 55:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 56:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', '.', '.']
+
+Sentence 57:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 58:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 59:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 60:
+Golden: ['C', 'D', '.']
+Predicted: ['D', '.', '.']
+
+Sentence 61:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 62:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+
+Sentence 63:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.', '.']
+
+Sentence 64:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 65:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 66:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 67:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 68:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 69:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 70:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 71:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['D', 'E', '.', '.']
+
+Sentence 72:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 73:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 74:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 75:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+
+Sentence 76:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 77:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 78:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 79:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 80:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 81:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 82:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 83:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 84:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 85:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 86:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'G', 'H', '.']
+
+Sentence 87:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 88:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 89:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 90:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 91:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 92:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 93:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 94:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 95:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 96:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+
+Sentence 97:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 98:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 99:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 100:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 101:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+
+Sentence 102:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 103:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+
+Sentence 104:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 105:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+
+Sentence 106:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 107:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 108:
+Golden: ['B', 'C', '.']
+Predicted: ['B', '.', '.']
+
+Sentence 109:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 110:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 111:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 112:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 113:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 114:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 115:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 116:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 117:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'G', 'H', 'I', '.']
+
+Sentence 118:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 119:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 120:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 121:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', 'G', '.']
+
+Sentence 122:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 123:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 124:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+
+Sentence 125:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 126:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 127:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 128:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 129:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 130:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 131:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 132:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 133:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G']
+
+Sentence 134:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 135:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+
+Sentence 136:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 137:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'G', 'H', 'I', '.']
+
+Sentence 138:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 139:
+Golden: ['A', '.']
+Predicted: ['.', '.']
+
+Sentence 140:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 141:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 142:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 143:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+
+Sentence 144:
+Golden: ['A', 'B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.', '.']
+
+Sentence 145:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.', 'H']
+
+Sentence 146:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 147:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 148:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+
+Sentence 149:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 150:
+Golden: ['A', 'B', '.']
+Predicted: ['A', '.', '.']
+
+Sentence 151:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 152:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.', 'H']
+
+Sentence 153:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 154:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 155:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 156:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 157:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 158:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 159:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 160:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 161:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+
+Sentence 162:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 163:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+
+Sentence 164:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', 'G', '.']
+
+Sentence 165:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+
+Sentence 166:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 167:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 168:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 169:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 170:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 171:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 172:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 173:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 174:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 175:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 176:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+
+Sentence 177:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['D', 'E', '.', '.']
+
+Sentence 178:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 179:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 180:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'G', 'H', '.']
+
+Sentence 181:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 182:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 183:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+
+Sentence 184:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 185:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', 'G', '.']
+
+Sentence 186:
+Golden: ['C', 'D', '.']
+Predicted: ['D', '.', '.']
+
+Sentence 187:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['G', 'H', 'I', 'J', '.']
+
+Sentence 188:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 189:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 190:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+
+Sentence 191:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 192:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 193:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 194:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 195:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 196:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 197:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 198:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 199:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'G', 'H', 'I', '.']
+
+Sentence 200:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 201:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 202:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 203:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 204:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 205:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 206:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 207:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 208:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', 'G', '.']
+
+Sentence 209:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'G', 'H', 'I', '.']
+
+Sentence 210:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 211:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 212:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 213:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 214:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 215:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 216:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 217:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 218:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 219:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 220:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 221:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 222:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 223:
+Golden: ['C', 'D', '.']
+Predicted: ['D', '.', '.']
+
+Sentence 224:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+
+Sentence 225:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 226:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 227:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 228:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 229:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+
+Sentence 230:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 231:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 232:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 233:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.', 'G']
+
+Sentence 234:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 235:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', 'G', '.']
+
+Sentence 236:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.', '.']
+
+Sentence 237:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 238:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G']
+
+Sentence 239:
+Golden: ['B', 'C', '.']
+Predicted: ['B', '.', '.']
+
+Sentence 240:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 241:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+
+Sentence 242:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 243:
+Golden: ['C', 'D', '.']
+Predicted: ['D', '.', '.']
+
+Sentence 244:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.', '.']
+
+Sentence 245:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 246:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['G', 'H', 'I', 'J', '.']
+
+Sentence 247:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 248:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 249:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 250:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 251:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 252:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 253:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 254:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+
+Sentence 255:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G']
+
+Sentence 256:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 257:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 258:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 259:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 260:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 261:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['G', 'H', 'I', 'J', '.']
+
+Sentence 262:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['G', 'H', 'I', 'J', '.']
+
+Sentence 263:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 264:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+
+Sentence 265:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 266:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.', '.']
+
+Sentence 267:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 268:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+
+Sentence 269:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 270:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 271:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+
+Sentence 272:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 273:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 274:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 275:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 276:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 277:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 278:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['D', 'E', '.', '.']
+
+Sentence 279:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.', '.']
+
+Sentence 280:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 281:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 282:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 283:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 284:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.', '.']
+
+Sentence 285:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+
+Sentence 286:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 287:
+Golden: ['C', 'D', '.']
+Predicted: ['D', '.', '.']
+
+Sentence 288:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 289:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 290:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 291:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.', '.']
+
+Sentence 292:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 293:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['D', 'E', '.', '.']
+
+Sentence 294:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G']
+
+Sentence 295:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 296:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 297:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 298:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 299:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 300:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 301:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 302:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['G', 'H', 'I', 'J', '.']
+
+Sentence 303:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 304:
+Golden: ['A', 'B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.', '.']
+
+Sentence 305:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 306:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 307:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+
+Sentence 308:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 309:
+Golden: ['B', '.']
+Predicted: ['.', '.']
+
+Sentence 310:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 311:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 312:
+Golden: ['E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 313:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 314:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 315:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 316:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['G', 'H', 'I', 'J', '.']
+
+Sentence 317:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 318:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 319:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 320:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 321:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+
+Sentence 322:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 323:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 324:
+Golden: ['A', 'B', '.']
+Predicted: ['A', '.', '.']
+
+Sentence 325:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 326:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'G', 'H', 'I', '.']
+
+Sentence 327:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 328:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 329:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 330:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 331:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 332:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 333:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'G', 'H', '.']
+
+Sentence 334:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 335:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+
+Sentence 336:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 337:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 338:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 339:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G']
+
+Sentence 340:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 341:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+
+Sentence 342:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 343:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+
+Sentence 344:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 345:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.', '.']
+
+Sentence 346:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 347:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+
+Sentence 348:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 349:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 350:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 351:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 352:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 353:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 354:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.', '.']
+
+Sentence 355:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G']
+
+Sentence 356:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 357:
+Golden: ['D', 'E', 'F', 'G', '.']
+Predicted: ['D', 'E', 'F', 'G', '.']
+
+Sentence 358:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 359:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 360:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 361:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 362:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 363:
+Golden: ['C', 'D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.', '.']
+
+Sentence 364:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+
+Sentence 365:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+
+Sentence 366:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 367:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 368:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.', '.']
+
+Sentence 369:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+
+Sentence 370:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 371:
+Golden: ['D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.']
+
+Sentence 372:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 373:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 374:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 375:
+Golden: ['B', '.']
+Predicted: ['.', '.']
+
+Sentence 376:
+Golden: ['E', 'F', '.']
+Predicted: ['E', 'F', '.']
+
+Sentence 377:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'G', 'H', 'I', '.']
+
+Sentence 378:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 379:
+Golden: ['F', 'G', 'H', 'I', '.']
+Predicted: ['F', 'G', 'H', 'I', '.']
+
+Sentence 380:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 381:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.', '.']
+
+Sentence 382:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 383:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 384:
+Golden: ['C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G']
+
+Sentence 385:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.', '.']
+
+Sentence 386:
+Golden: ['A', 'B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', 'E', '.', '.']
+
+Sentence 387:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', '.', '.']
+
+Sentence 388:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 389:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 390:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+
+Sentence 391:
+Golden: ['B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.']
+
+Sentence 392:
+Golden: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 393:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 394:
+Golden: ['E', '.']
+Predicted: ['E', '.']
+
+Sentence 395:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 396:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 397:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 398:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 399:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+
+Sentence 400:
+Golden: ['C', 'D', '.']
+Predicted: ['D', '.', '.']
+
+Sentence 401:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 402:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 403:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 404:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 405:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 406:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 407:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 408:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 409:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 410:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 411:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', '.']
+
+Sentence 412:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 413:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'G', 'H', '.']
+
+Sentence 414:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 415:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 416:
+Golden: ['A', 'B', '.']
+Predicted: ['A', '.', '.']
+
+Sentence 417:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 418:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 419:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 420:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 421:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 422:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 423:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 424:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 425:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 426:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 427:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 428:
+Golden: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.']
+
+Sentence 429:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 430:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 431:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 432:
+Golden: ['C', 'D', 'E', '.']
+Predicted: ['D', 'E', '.', '.']
+
+Sentence 433:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 434:
+Golden: ['C', 'D', '.']
+Predicted: ['D', '.', '.']
+
+Sentence 435:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 436:
+Golden: ['C', 'D', '.']
+Predicted: ['D', '.', '.']
+
+Sentence 437:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 438:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 439:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 440:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 441:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 442:
+Golden: ['A', 'B', 'C', '.']
+Predicted: ['B', '.', '.', '.']
+
+Sentence 443:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 444:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 445:
+Golden: ['F', 'G', '.']
+Predicted: ['F', 'G', '.']
+
+Sentence 446:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 447:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 448:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 449:
+Golden: ['A', 'B', '.']
+Predicted: ['A', '.', '.']
+
+Sentence 450:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 451:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 452:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 453:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 454:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 455:
+Golden: ['G', 'H', 'I', 'J', '.']
+Predicted: ['G', 'H', 'I', 'J', '.']
+
+Sentence 456:
+Golden: ['H', 'I', '.']
+Predicted: ['H', 'I', '.']
+
+Sentence 457:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 458:
+Golden: ['F', 'G', 'H', '.']
+Predicted: ['F', 'G', 'H', '.']
+
+Sentence 459:
+Golden: ['C', '.']
+Predicted: ['C', '.']
+
+Sentence 460:
+Golden: ['D', 'E', 'F', '.']
+Predicted: ['D', 'E', 'F', '.']
+
+Sentence 461:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+
+Sentence 462:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 463:
+Golden: ['E', 'F', 'G', '.']
+Predicted: ['E', 'F', 'G', '.']
+
+Sentence 464:
+Golden: ['F', '.']
+Predicted: ['F', '.']
+
+Sentence 465:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 466:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 467:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 468:
+Golden: ['I', '.']
+Predicted: ['I', '.']
+
+Sentence 469:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 470:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 471:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', 'J', '.', 'G']
+
+Sentence 472:
+Golden: ['A', 'B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.', '.']
+
+Sentence 473:
+Golden: ['G', '.']
+Predicted: ['G', '.']
+
+Sentence 474:
+Golden: ['E', 'F', 'G', 'H', '.']
+Predicted: ['E', 'F', 'G', 'H', '.']
+
+Sentence 475:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 476:
+Golden: ['D', 'E', '.']
+Predicted: ['D', 'E', '.']
+
+Sentence 477:
+Golden: ['B', 'C', 'D', 'E', '.']
+Predicted: ['B', 'C', 'D', '.', '.']
+
+Sentence 478:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 479:
+Golden: ['A', 'B', 'C', 'D', '.']
+Predicted: ['B', 'C', 'D', '.', '.']
+
+Sentence 480:
+Golden: ['F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 481:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 482:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 483:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 484:
+Golden: ['G', 'H', 'I', '.']
+Predicted: ['G', 'H', 'I', '.']
+
+Sentence 485:
+Golden: ['H', '.']
+Predicted: ['H', '.']
+
+Sentence 486:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 487:
+Golden: ['C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', 'I', '.', '.']
+
+Sentence 488:
+Golden: ['D', '.']
+Predicted: ['D', '.']
+
+Sentence 489:
+Golden: ['B', 'C', 'D', 'E', 'F', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', '.']
+
+Sentence 490:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 491:
+Golden: ['J', '.']
+Predicted: ['J', '.']
+
+Sentence 492:
+Golden: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+Predicted: ['E', 'F', 'G', 'H', 'I', 'J', '.']
+
+Sentence 493:
+Golden: ['G', 'H', '.']
+Predicted: ['G', 'H', '.']
+
+Sentence 494:
+Golden: ['A', '.']
+Predicted: ['.', '.']
+
+Sentence 495:
+Golden: ['D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 496:
+Golden: ['H', 'I', 'J', '.']
+Predicted: ['H', 'I', 'J', '.']
+
+Sentence 497:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 498:
+Golden: ['I', 'J', '.']
+Predicted: ['I', 'J', '.']
+
+Sentence 499:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', '.']
+
+Sentence 500:
+Golden: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+Predicted: ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '.']
+

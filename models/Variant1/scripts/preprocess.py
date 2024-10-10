@@ -10,7 +10,7 @@ import random
 from torch.autograd import Variable
 import numpy as np
 from collections import Counter
-from models.Prange.model.CCGNode import CCGNode
+from models.Variant1.model.CCGNode import CCGNode
 
 def load_data(train_file, val_file, test_file):
     """ Load the data from the files. """
@@ -28,7 +28,7 @@ def load_data(train_file, val_file, test_file):
         tokens = []
         CCG = []
         pairs = line.split(" ")
-        if len(pairs) < 71: # ignore the sentences that are too long
+        if len(pairs) < 71:
             for pair in pairs:
                 pair = pair.strip('\n')
                 if pair != "\n" and pair != '':
@@ -48,7 +48,7 @@ def load_data(train_file, val_file, test_file):
         tokens = []
         CCG = []
         pairs = line.split(" ")
-        if len(pairs) < 71:
+        if len(pairs) < 71: # ignore the sentences that are too long
             for pair in pairs:
                 pair = pair.strip('\n')
                 if pair != "\n" and pair != '':
@@ -67,7 +67,7 @@ def load_data(train_file, val_file, test_file):
         tokens = []
         CCG = []
         pairs = line.split(" ")
-        if len(pairs) < 71: # ignore the sentences that are too long
+        if len(pairs) < 71:
             for pair in pairs:
                 pair = pair.strip('\n')
                 if pair != "\n" and pair != '':
@@ -109,7 +109,7 @@ def get_atomic_labels(vocab_CCG):
     return sorted(list(set(atomic_labels)))
 
 def get_opaque_mapping(vocab_CCG):
-    """ Get the mapping from the CCG supertags to the idxs. """
+    """ Get the opaque mapping from the CCG supertags. """
     CCG_to_idx = {tag: i+1 for i, tag in enumerate(vocab_CCG)}
     # add padding, unknown, and start tokens
     CCG_to_idx["<PAD>"] = 0
@@ -121,7 +121,7 @@ def get_opaque_mapping(vocab_CCG):
     return CCG_to_idx, idx_to_CCG
 
 def get_atomic_mapping(atomic_labels):
-    """ Get the mapping from the atomic labels to the idxs. """
+    """ Get the atomic mapping from the atomic labels. """
     atomic_to_idx = {tag: i for i, tag in enumerate(atomic_labels)}
     atomic_to_idx["/"] = len(atomic_to_idx)
     atomic_to_idx["\\"] = len(atomic_to_idx)
@@ -250,7 +250,7 @@ def get_positional_mapping(MAX_DEPTH):
     return enc_to_idx
 
 def encode_trees(encoded_sentence_CCG, val_encoded_sentence_CCG, test_encoded_sentence_CCG, CCG_to_idx, BLOCK_SIZE, atomic_to_idx, idx_to_atomic):
-    """ Encode the CCG supertags into trees. """
+    """ Encode the trees into CCGNodes. The function encodes all the splits data into CCGNodes. """
     sentence_trees = []
     for i, sentence in enumerate(encoded_sentence_CCG):
         sentence_tree = []
@@ -320,7 +320,7 @@ def create_mapping(sentence, tokens_tensor, cased = False, subword_manage = 'pre
     return mapping
 
 def get_words_mapping(vocab):
-    """ Get the mapping from the words to the idxs. """
+    """ Get the mapping from the words to the opaque ids. """
     vocab = sorted(list(set(vocab)))
     word_to_idx = {word: i+1 for i, word in enumerate(vocab)}
     word_to_idx["<PAD>"] = 0
@@ -328,7 +328,7 @@ def get_words_mapping(vocab):
     return word_to_idx, idx_to_word
 
 def encode_words(sentence_tokens, val_sentence_tokens, test_sentence_tokens, word_to_idx, BLOCK_SIZE):
-    """ Encode the words into idxs. """
+    """ Encode the words into opaque ids. The function encodes all the splits data into opaque ids. """
     sentence_tokens_idx = []
     for sentence in sentence_tokens:
         sentence_idx = [word_to_idx[word] for word in sentence]
@@ -353,7 +353,7 @@ def encode_words(sentence_tokens, val_sentence_tokens, test_sentence_tokens, wor
     return sentence_tokens_idx, val_sentence_tokens_idx, test_sentence_tokens_idx
 
 def get_splits(sentence_tokens_idx, val_sentence_tokens_idx, test_sentence_tokens_idx, sentence_trees, val_sentence_trees, test_sentence_trees):
-    """ Get the splits for the training, validation, and test data. """
+    """ Get the splits from the data. """
     train_data = []
     for i in range(len(sentence_tokens_idx)):
         train_data.append((sentence_tokens_idx[i], sentence_trees[i]))

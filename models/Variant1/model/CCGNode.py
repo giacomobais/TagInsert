@@ -16,7 +16,7 @@ def load_config():
     return config
 
 class CCGNode():
-    """ Class for a CCG Node. It includes methods to grow the tree and return leaves and nodes that can be used during training. """
+    """ Class for a CCG Node. It includes methods to grow the tree and return leaves and nodes that can be used during training. """    
     def __init__(self, supertag, parent=None, pos = []):
         count = 0
         self.parent = parent
@@ -45,8 +45,8 @@ class CCGNode():
                 right_pos.append(-1)
                 self.left = CCGNode([supertag[0]], parent=self, pos = left_pos)
                 self.right = CCGNode([supertag[2]], parent=self, pos = right_pos)
-        # if the supertag is a complex node (i.e. (N/N)/N)
         else:
+            # if the supertag is a complex node
             for i, element in enumerate(supertag):
                 # recursively grow the tree with the proper left and right nodes
                 if element in ['(']:
@@ -79,7 +79,7 @@ class CCGNode():
             return max(self.left.get_depth(), self.right.get_depth()) + 1
 
     def get_nodes(self):
-        """ The function returns the nodes of the tree in a list. """
+        """ The function returns the nodes of the tree in a list representation. """
         if not self:
             return []
 
@@ -90,7 +90,7 @@ class CCGNode():
         while queue and depth <= self.config['model']['MAX_DEPTH']:
             level_size = len(queue)
             for _ in range(level_size):
-                node = queue.pop(0) 
+                node = queue.pop(0)  
                 if node == -1:
                     result.append(-1)
                     queue.append(-1)
@@ -106,14 +106,14 @@ class CCGNode():
         return result
 
     def to_list(self):
-        """ The function returns the leaves of the tree in a list. """
+        """ The function returns the nodes of the tree in a list representation. """
         if self.left is None and self.right is None:
             return [self]
         else:
             return [self] + self.left.to_list() + self.right.to_list()
 
     def add_children(self, left, right):
-        """ The function adds the given children to the node. """
+        """ The function adds the left and right children to the current node. """
         assert self.left is None and self.right is None
         self.left = left
         self.right = right
@@ -127,7 +127,7 @@ class CCGNode():
         right.pos = right_i
 
     def get_ancestors_slashes(self, atomic_to_idx):
-        """ The function returns the slashes of the ancestors of the node. """
+        """ The function returns the ancestors of the current node in a list representation. """
         if self.parent is None:
             return []
         else:
@@ -139,11 +139,58 @@ class CCGNode():
         if self.left is None and self.right is None:
             return idx_to_atomic[self.data]
         else:
-            return f"({idx_to_atomic[self.data]} {self.left.to_string()} {self.right.to_string()})"
+            return f"({idx_to_atomic[self.data]} {self.left.to_string(idx_to_atomic)} {self.right.to_string(idx_to_atomic)})"
 
     def is_equal(self, other):
-        """ The function returns True if the two trees are equal. """
+        """ The function checks if the current tree is equal to the other tree. """
         return self.get_nodes() == other.get_nodes()
+    
+    def get_nodes_at_d(self, depth):
+        """ The function returns the nodes at a given depth. """
+        if depth == 0:
+            return [self]
+        else:
+            left_nodes = self.left.get_nodes_at_d(depth-1) if self.left else [None] * 2**(depth-1)
+            right_nodes = self.right.get_nodes_at_d(depth-1) if self.right else [None] * 2**(depth-1)
+            return left_nodes + right_nodes
+            
+    def get_leaves(self, depth):
+        """ The function returns the leaves of the tree up until the given depth. """
+        leaves = []
+        for d in range(depth+1):
+            nodes_at_d = self.get_nodes_at_d(d)
+            for node in nodes_at_d:
+                if node is not None and node.left is None:
+                    leaves.append(node.teacher_data)
+        return leaves
+
+    def get_leaves_right(self, depth):
+        """ The function returns all the right children leaves of the tree up until the given depth. """
+        leaves = []
+        for d in range(depth+1):
+            nodes_at_d = self.get_nodes_at_d(d)
+            for node in nodes_at_d:
+                if node is None:
+                    continue
+                if node.parent is None and node.left is None:
+                    leaves.append(node.teacher_data)
+                elif node is not None and node.left is None and node.parent.right == node:
+                    leaves.append(node.teacher_data)
+        return leaves
+
+    def get_leaves_left(self, depth):
+        """ The function returns all the left children leaves of the tree up until the given depth. """
+        leaves = []
+        for d in range(depth+1):
+            nodes_at_d = self.get_nodes_at_d(d)
+            for node in nodes_at_d:
+                if node is None:
+                    continue
+                if node.parent is None and node.left is None:
+                    leaves.append(node.teacher_data)
+                elif node is not None and node.left is None and node.parent.left == node:
+                    leaves.append(node.teacher_data)
+        return leaves
 
     def to_opaque(self, atomic_to_idx, idx_to_atomic):
         """ The function returns the opaque representation of the tree. """
@@ -163,7 +210,7 @@ class CCGNode():
                 return idx_to_atomic[self.data]
 
 def pretty_print_tree(root, idx_to_atomic):
-    """ The function prints the tree in a pretty manner, recursively. """
+    """ The function prints the tree in a pretty format. """
     if root.data is None:
         print('Empty tree', flush=True)
         return
@@ -172,5 +219,4 @@ def pretty_print_tree(root, idx_to_atomic):
             _print_tree(node.right, prefix + ("│   " if is_left else "    "), False)
             print(prefix + ("└── " if is_left else "┌── ") + str(idx_to_atomic[node.data]), flush=True)
             _print_tree(node.left, prefix + ("    " if is_left else "│   "), True)
-    # call the recursive function
     _print_tree(root, "", True)

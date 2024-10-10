@@ -6,7 +6,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..
 sys.path.insert(0, project_root)
 
 import yaml
-from models.Prange.model.model import EncoderDecoder, BERT_Encoder, Decoder
+from models.Variant1.model.model import EncoderDecoder, BERT_Encoder, Decoder
 import torch.nn as nn
 import torch
 import numpy as np
@@ -14,7 +14,7 @@ from transformers import RobertaTokenizer
 
 def load_config():
     """The function loads the config from the config.yaml file"""
-    with open('models/Prange/config/config.yaml', 'r') as file:
+    with open('models/Variant1/config/config.yaml', 'r') as file:
         config = yaml.safe_load(file)
     return config
 
@@ -41,13 +41,12 @@ class SimpleLossCompute:
         self.config = load_config()
 
     def __call__(self, x, y, sequence_lengths, norm):
-        """ The loss function for the model.
+        """ The loss function for the model 
         It is the negative log likelihood of the gold tree. """
         # initialize the batch loss
         batch_loss = torch.zeros(self.config['model']['BATCH_SIZE'])
         # for each sentence in the batch
         for i, sentence in enumerate(x):
-            # initialize the words loss
             words_loss = torch.zeros(sequence_lengths[i])
             # for each word in the sentence we have a tree
             for j in range(sequence_lengths[i]):
@@ -57,7 +56,7 @@ class SimpleLossCompute:
                 for n in range(sentence[j].size(0)):
                     # get the gold node
                     gold_node = y[i][j][n]
-                    # if the gold node is the padding node, continue
+                    # if the gold node is a pad node, continue
                     if gold_node == -1:
                         continue
                     # get the predicted node
@@ -139,10 +138,8 @@ def greedy_decode(model, src, sequence_lengths, max_len):
     """ Greedy decode function for inference. """
     # forward pass to the encoder block
     memory = model.encode(src)
-
     # forward pass to the decoder block
     ys = []
-    # get the predicted supertags and logits
     batch_supertags, logits = model.decode(
         memory, sequence_lengths, None, 'val')
     # for each sentence in the batch
@@ -153,6 +150,5 @@ def greedy_decode(model, src, sequence_lengths, max_len):
         for j, root in enumerate(sentence):
             # store the tree
             sentence_ys.append(root)
-        # store the sentence ys
         ys.append(sentence_ys)
     return ys

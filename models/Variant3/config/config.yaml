@@ -1,0 +1,19 @@
+model:
+  name: PrangeVariant1
+  bert_model: roberta-base
+  train_file: data/CCGBank/sec02-21.gold.stagged
+  val_file: data/CCGBank/sec00.gold.stagged
+  test_file: data/CCGBank/sec23.gold.stagged
+  BLOCK_SIZE: 73
+  BLOCK_SIZE_BERT: 150
+  BATCH_SIZE: 4
+  MAX_DEPTH: 6
+  LEAVES_CONTEXT: 3
+  d_model: 768
+  EPOCHS: 6
+  device: "cuda"
+  lr: 0.0001
+  beta1: 0.9
+  beta2: 0.999
+  eps: 0.000001
+  warmup: 400

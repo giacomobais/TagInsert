@@ -9,10 +9,10 @@ import torch
 from transformers import AutoModel, RobertaTokenizer
 
 import torch.nn as nn
-from models.Prange.scripts.preprocess import  load_data, get_atomic_labels, get_opaque_mapping, get_atomic_mapping, encode_CCG, get_positional_mapping, encode_trees, get_words_mapping, encode_words, get_splits, dataload_scan
-from models.Prange.model.utils import load_config, load_model, make_model, SimpleLossCompute, save_model
-from models.Prange.model.CCGNode import CCGNode, pretty_print_tree
-from models.Prange.model.model import TrainState
+from models.Variant3.scripts.preprocess import  load_data, get_atomic_labels, get_opaque_mapping, get_atomic_mapping, encode_CCG, get_positional_mapping, encode_trees, get_words_mapping, encode_words, get_splits, dataload_scan
+from models.Variant3.model.utils import load_config, load_model, make_model, SimpleLossCompute, save_model
+from models.Variant3.model.CCGNode import CCGNode, pretty_print_tree
+from models.Variant3.model.model import TrainState
 
 def run_epoch_scan(
     data_iter,
@@ -29,7 +29,6 @@ def run_epoch_scan(
     total_tokens = 0
     total_loss = 0
     tokens = 0
-    n_accum = 0
     for i, batch in enumerate(data_iter):
         # Forward pass
         trees, logits = model.forward(
@@ -52,7 +51,7 @@ def run_epoch_scan(
         total_loss += loss
         total_tokens += batch.ntokens
         tokens += batch.ntokens
-        # Print the loss every 2 steps
+        # Log the loss
         if i % 2 == 0:
             print(f'Train loss at step {i*batch.tgt_y.shape[0]}/{(i+1)*batch.tgt_y.shape[0]}: {loss_node.data.item()} in mode {mode}', flush=True)
         del loss
@@ -60,7 +59,7 @@ def run_epoch_scan(
     return total_loss / total_tokens, train_state, losses
 
 def resume_training(path, atomic_to_idx, config, train_data, encoder_to_idx):
-    """Resume training. If there is no pre-trained model, it will load the pre-trained RoBERTa model and train the model from scratch."""
+    """Resume training from a pre-existent model. If no model is found, it initializes a new model."""
     try:
         model, model_opt, lr_scheduler, logs = load_model(path, atomic_to_idx, config, train_data, encoder_to_idx)
         trained_epochs = logs['epochs']
@@ -89,7 +88,7 @@ def resume_training(path, atomic_to_idx, config, train_data, encoder_to_idx):
     return model, model_opt, lr_scheduler, trained_epochs, train_losses, val_losses
 
 def train(model, train_data, sentence_tokens, CCG_to_idx, config, optimizer, lr_scheduler, trained_epochs, all_train_losses):
-    """Train the model and log relevant information."""
+    """Train the model. Also logs relevant information."""
     criterion = nn.CrossEntropyLoss()
 
     for epoch in range(config['model']['EPOCHS']):
@@ -135,11 +134,11 @@ if __name__ == '__main__':
 
     # train the model
     print("Training the model...")
-    path = 'models/Prange/saved_models/Prange'
+    path = 'models/Variant3/saved_models/Variant3'
     model, optimizer, lr_scheduler, trained_epochs, train_losses, val_losses = resume_training(path, atomic_to_idx, config, train_data, encoder_to_idx)
     model, optimizer, lr_scheduler, train_losses, trained_epochs = train(model, train_data, sentence_tokens, CCG_to_idx, config, optimizer, lr_scheduler, trained_epochs, train_losses)
 
     # save the model
-    save_model(model, optimizer, lr_scheduler, train_losses, val_losses, trained_epochs, 'models/Prange/saved_models/Prange')
+    save_model(model, optimizer, lr_scheduler, train_losses, val_losses, trained_epochs, 'models/Variant3/saved_models/Variant3')
 
 

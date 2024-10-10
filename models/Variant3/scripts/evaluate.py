@@ -6,9 +6,9 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..
 sys.path.insert(0, project_root)
 
 import torch
-from models.Prange.model.utils import greedy_decode, load_config
-from models.Prange.scripts.preprocess import load_data, get_atomic_mapping, get_words_mapping, get_opaque_mapping, get_splits, get_positional_mapping, get_atomic_labels, encode_CCG, encode_trees, encode_words
-from models.Prange.scripts.train import resume_training
+from models.Variant3.model.utils import greedy_decode, load_config
+from models.Variant3.scripts.preprocess import load_data, get_atomic_mapping, get_words_mapping, get_opaque_mapping, get_splits, get_positional_mapping, get_atomic_labels, encode_CCG, encode_trees, encode_words
+from models.Variant3.scripts.train import resume_training
 
 def evaluate(model, val_data, val_sentence_tokens, CCG_to_idx, config):
     """ Evaluate the model on the validation data. """
@@ -20,8 +20,8 @@ def evaluate(model, val_data, val_sentence_tokens, CCG_to_idx, config):
                 print(f'Predicting sentence {i+1}/{len(val_data)}.', flush = True)
             batch = val_data[i:i+config['model']['BATCH_SIZE']]
             src = []
+            # initialize the target tensor
             tgt = torch.zeros((config['model']['BATCH_SIZE'], config['model']['BLOCK_SIZE'], 2**(config['model']['MAX_DEPTH']+1)-1), dtype = torch.long)
-            
             # for each sentence in the batch
             for j, (sentence, trees) in enumerate(batch):
                 # store the sentence
@@ -38,7 +38,9 @@ def evaluate(model, val_data, val_sentence_tokens, CCG_to_idx, config):
             end = i + config['model']['BATCH_SIZE']
             if end > len(val_data):
                 end = len(val_data)
+            # get the original sentences
             original_sentences = [val_sentence_tokens[i] for i in range(start, end)]
+            # get the sequence lengths
             sequence_lengths = []
             for sent in original_sentences:
                 sequence_lengths.append(len(sent))
@@ -105,13 +107,13 @@ if __name__ == "__main__":
     train_data, val_data, test_data = get_splits(sentence_words, val_sentence_words, test_sentence_words, sentence_trees, val_sentence_trees, test_sentence_trees)
 
     # load model
-    path = 'models/Prange/saved_models/Prange'
+    path = 'models/Variant3/saved_models/Variant3'
     model, optimizer, lr_scheduler, trained_epochs, train_losses, val_losses = resume_training(path, atomic_to_idx, config, train_data, encoder_to_idx)    
     # evaluate model
     accuracy, test_predictions, test_targets = evaluate(model, val_data, val_sentence_tokens, CCG_to_idx, config)
     print(f'Accuracy: {accuracy}')
 
-    # save the predictions to a file
+    # save predictions to a file
     list_tgt = []
     for i, sent_tgts in enumerate(test_targets):
         sent_tgt = []
@@ -129,7 +131,7 @@ if __name__ == "__main__":
                 sent_preds.append('<BAD_TREE>')
         list_preds.append(sent_preds)
 
-    with open('models/Prange/predictions/predictions.txt', 'w') as file:
+    with open('models/Variant3/predictions/predictions.txt', 'w') as file:
         for i, sent_tgts in enumerate(list_tgt):
             for j, tgt in enumerate(sent_tgts):
                 file.write(f'{tgt}|{list_preds[i][j]} ')

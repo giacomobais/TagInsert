@@ -8,9 +8,9 @@ sys.path.insert(0, project_root)
 import torch
 import random
 from torch.autograd import Variable
-import numpy as np
 from collections import Counter
-from models.Prange.model.CCGNode import CCGNode
+from transformers import AutoModel, RobertaTokenizer
+from models.ConstructiveTagInsert.model.CCGNode import CCGNode
 
 def load_data(train_file, val_file, test_file):
     """ Load the data from the files. """
@@ -88,6 +88,18 @@ def load_data(train_file, val_file, test_file):
     vocab_CCG = sorted(list(set(vocab_CCG)))
 
     return sentence_tokens, sentence_CCG, test_sentence_tokens, test_sentence_CCG, val_sentence_tokens, val_sentence_CCG, vocab, vocab_CCG, test_vocab_CCG, freqs, test_freqs
+
+def get_bert_model(bert_model, device):
+    """Get the bert model and tokenizer."""
+    tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+    bert_model = AutoModel.from_pretrained('roberta-base',
+                                                output_hidden_states = True, # Whether the model returns all hidden-states.
+                                                )
+
+    # Put the model in "evaluation" mode, meaning feed-forward operation.
+    bert_model = bert_model.to(device)
+    bert_model.eval()
+    return bert_model, tokenizer
 
 def get_atomic_labels(vocab_CCG):
     """ Get the atomic labels from the CCG supertags. """
@@ -352,23 +364,93 @@ def encode_words(sentence_tokens, val_sentence_tokens, test_sentence_tokens, wor
 
     return sentence_tokens_idx, val_sentence_tokens_idx, test_sentence_tokens_idx
 
-def get_splits(sentence_tokens_idx, val_sentence_tokens_idx, test_sentence_tokens_idx, sentence_trees, val_sentence_trees, test_sentence_trees):
+def encode_CCGs(sentence_CCG, val_sentence_CCG, test_sentence_CCG, CCG_to_idx, BLOCK_SIZE):
+    """ Encode the CCG supertags into idxs. """
+    sentence_CCG_idx = []
+    for sentence in sentence_CCG:
+        sentence_idx = [CCG_to_idx[tag] for tag in sentence]
+        # add start token
+        # pad sentence to 100
+        sentence_idx += [CCG_to_idx['<PAD>']] * (BLOCK_SIZE - len(sentence_idx))
+        sentence_CCG_idx.append(sentence_idx)
+
+    val_sentence_CCG_idx = []
+    for sentence in val_sentence_CCG:
+        sentence_idx = [CCG_to_idx[tag] if tag in CCG_to_idx else CCG_to_idx['<U>'] for tag in sentence]
+        # add start token
+        # pad sentence to 100
+        sentence_idx += [CCG_to_idx['<PAD>']] * (BLOCK_SIZE - len(sentence_idx))
+        val_sentence_CCG_idx.append(sentence_idx)
+
+    test_sentence_CCG_idx = []
+    for sentence in test_sentence_CCG:
+        sentence_idx = [CCG_to_idx[tag] if tag in CCG_to_idx else CCG_to_idx['<U>'] for tag in sentence]
+        # add start token
+        # pad sentence to 100
+        sentence_idx += [CCG_to_idx['<PAD>']] * (BLOCK_SIZE - len(sentence_idx))
+        test_sentence_CCG_idx.append(sentence_idx)
+
+    return sentence_CCG_idx, val_sentence_CCG_idx, test_sentence_CCG_idx    
+
+def get_splits(sentence_tokens_idx, val_sentence_tokens_idx, test_sentence_tokens_idx, sentence_trees, val_sentence_trees, test_sentence_trees, sentence_CCG_idx, val_sentence_CCG_idx, test_sentence_CCG_idx):
     """ Get the splits for the training, validation, and test data. """
     train_data = []
     for i in range(len(sentence_tokens_idx)):
-        train_data.append((sentence_tokens_idx[i], sentence_trees[i]))
+        train_data.append((sentence_tokens_idx[i], sentence_CCG_idx[i], sentence_trees[i]))
 
     val_data = []
     for i in range(len(val_sentence_tokens_idx)):
-        val_data.append((val_sentence_tokens_idx[i], val_sentence_trees[i]))
+        val_data.append((val_sentence_tokens_idx[i], val_sentence_CCG_idx[i], val_sentence_trees[i]))
 
     test_data = []
     for i in range(len(test_sentence_tokens_idx)):
-        test_data.append((test_sentence_tokens_idx[i], test_sentence_trees[i]))
+        test_data.append((test_sentence_tokens_idx[i], test_sentence_CCG_idx[i], test_sentence_trees[i]))
 
     return train_data, val_data, test_data
 
-def get_batch_scan(data, sentences, config, CCG_to_idx, reached = 0):
+def extract_BERT_embs(sentences, bert_model, tokenizer, BLOCK_SIZE_BERT, BLOCK_SIZE, device):
+    """function to extract the BERT embeddings for the sentences"""
+    """Through the mapping previously created, we can extract the embeddings for the words depending on the subword management"""
+    """The embeddings are calculated for the last four layers and summed up to get a single embedding for the word"""
+    marked_text = [" ".join(sentence) for sentence in sentences]
+    # use tokenizer to get tokenized text and pad up to BLOCK_SIZE_BERT
+    tokens_tensor = [tokenizer(text, padding="max_length", truncation=True, max_length=BLOCK_SIZE_BERT, return_tensors="pt") for text in marked_text]
+    # get attention mask to ignore padding tokens
+    attention_mask = torch.stack([t['attention_mask'] for t in tokens_tensor])
+    tokens_tensor = torch.stack([t['input_ids'] for t in tokens_tensor]).squeeze(1)
+    # get the mapping to manage subwords
+    mappings = [create_mapping(sentence, tokens_tensor[i], cased = True, subword_manage='prefix', tokenizer = tokenizer) for i, sentence in enumerate(sentences)]
+    tokens_tensor = tokens_tensor.to(device)
+    attention_mask = attention_mask.to(device)
+    # forward pass to get the embeddings
+    with torch.no_grad():
+        bert_model = bert_model.to(device)
+        outputs = bert_model(tokens_tensor, attention_mask = attention_mask)
+        bert_model = bert_model.to('cpu')
+        hidden_states = outputs['hidden_states']
+        hidden_states = torch.stack(hidden_states, dim=0)
+        hidden_states = hidden_states.to('cpu')
+        hidden_states = hidden_states.permute(1,2,0,3)
+    del tokens_tensor, attention_mask
+    # sum the last four layers
+    sentence_embeddings = []
+    for i, token_embeddings in enumerate(hidden_states):
+        token_vecs_sum = []
+        for j, token in enumerate(token_embeddings):
+            if mappings[i][j] is None:
+                continue
+            sum_vec = torch.sum(token[-4:], dim=0)
+            token_vecs_sum.append(sum_vec)
+        sentence_embeddings.append(token_vecs_sum)
+    del hidden_states, mappings
+    # pad sentence embeddings to BLOCK_SIZE 
+    for i, sentence_embedding in enumerate(sentence_embeddings):
+        sentence_embeddings[i] += [torch.zeros(sentence_embedding[0].size(0))] * (BLOCK_SIZE - len(sentence_embedding))
+
+    sentence_embeddings = torch.stack([torch.stack(sentence) for sentence in sentence_embeddings])
+    return sentence_embeddings
+
+def get_batch_scan(data, sentences, config, CCG_to_idx, bert_model, tokenizer, reached = 0):
     """Prepare the batch for training for a whole epoch. """
     end = reached+config['model']['BATCH_SIZE']
     if end > len(data):
@@ -376,18 +458,22 @@ def get_batch_scan(data, sentences, config, CCG_to_idx, reached = 0):
     indices = range(reached, end)
     # build batches
     src = []
-    tgt = torch.zeros((config['model']['BATCH_SIZE'], config['model']['BLOCK_SIZE'], 2**(config['model']['MAX_DEPTH']+1)-1), dtype = torch.long)
-    for i, idx in enumerate(indices):
+    ccg_tgt = []
+    for idx in indices:
         src.append(data[idx][0])
-        for j, tree in enumerate(data[idx][1]):
+        ccg_tgt.append(data[idx][1])
+    tree_tgt = torch.zeros((config['model']['BATCH_SIZE'], config['model']['BLOCK_SIZE'], 2**(config['model']['MAX_DEPTH']+1)-1), dtype = torch.long)
+    for i, idx in enumerate(indices):
+        for j, tree in enumerate(data[idx][2]):
             if tree != CCG_to_idx['<PAD>']:
                 list_of_atomic = tree.get_nodes()
-                tgt[i][j] = torch.LongTensor(list_of_atomic)
-
+                tree_tgt[i][j] = torch.LongTensor(list_of_atomic)
 
     src = torch.LongTensor(src)
+    ccg_tgt = torch.LongTensor(ccg_tgt)
     original_sentences = [sentences[i] for i in indices]
-    return src, tgt, original_sentences
+    src_embs = extract_BERT_embs(original_sentences, bert_model, tokenizer, config['model']['BLOCK_SIZE_BERT'], config['model']['BLOCK_SIZE'], config['model']['device'])
+    return src, ccg_tgt, src_embs, original_sentences, tree_tgt
 
 def shuffle_data(data, raw_sentences):
     """Function to shuffle the data and the corresponding sentences"""
@@ -397,32 +483,82 @@ def shuffle_data(data, raw_sentences):
     data, sentences = zip(*combined)  # Unzip back into separate lists
     return list(data), list(sentences)
 
-def dataload_scan(batch, data, raw_sentences, device, CCG_to_idx, config):
+def dataload_scan(batch, data, raw_sentences, device, CCG_to_idx, config, bert_model, tokenizer):
     """Wraps the data into batches. """
     data, sentences = shuffle_data(data, raw_sentences)
     for i in range(0, len(data), batch):
         # print(f'Doing sequence {i}-{i+batch}', flush = True)
-        xb, yb, original_sentences = get_batch_scan(data, sentences, config, CCG_to_idx, reached = i)
+        xb, yb, embs, original_sentences, tree_tgt = get_batch_scan(data, sentences, config, CCG_to_idx, bert_model, tokenizer, reached = i)
         src = Variable(xb, requires_grad=False)#.clone().detach()
-        tgt = Variable(yb, requires_grad = False)#.clone().detach()
+        ccg_tgt = Variable(yb, requires_grad = False)#.clone().detach()
+        tree_tgt = Variable(tree_tgt, requires_grad = False)#.clone().detach()
+        embs = embs.requires_grad_(False).clone().detach()
         src = src.to(device)
-        tgt = tgt.to(device)
-        yield Batch(original_sentences, src, config, tgt, pad = CCG_to_idx['<PAD>'])
+        ccg_tgt = ccg_tgt.to(device)
+        tree_tgt = tree_tgt.to(device)
+        embs = embs.to(device)
+        yield Batch(src, ccg_tgt, tree_tgt, embs, config, CCG_to_idx, pad = CCG_to_idx['<PAD>'])
 
 class Batch:
     """Object for holding a batch of data with mask during training."""
-
-    def __init__(self, src, encoded_src, config, tgt=None, pad=0): 
+    """ In the case of the TagInsert model, the Batch object also contains the trajectory logic"""
+    """ In Constructive TagInsert, the next trajectory step is determined by the model's prediction"""
+    
+    def __init__(self, src, trg = None, tree_tgt = None, embs = None, config = None, CCG_to_idx = None, pad=0):
         self.src = src
-        self.src_mask = (encoded_src != pad).unsqueeze(-2)
-        self.sequence_lengths = [torch.nonzero(encoded_src[i] == 0, as_tuple = False)[0,0].item() if torch.nonzero(encoded_src[i] == 0, as_tuple = False).numel() > 0 else config['model']['BLOCK_SIZE']-1 for i in range(encoded_src.size(0))]
-        if tgt is not None:
-            self.tgt_y = tgt
-            self.tgt_mask = self.src_mask
-            self.ntokens = np.sum(self.sequence_lengths)
+        self.src_mask = (src != pad).unsqueeze(-2)
+        if trg is not None:
+            # extracting length of each sentence
+            first_pads = [torch.nonzero(trg[i] == 0, as_tuple = False)[0,0].item() if torch.nonzero(trg[i] == 0, as_tuple = False).numel() > 0 else config['model']['BLOCK_SIZE']-1for i in range(trg.size(0))]
+            self.sequence_lengths = first_pads
+            # targets to forward
+            new_trg = torch.zeros((src.size(0), config['model']['BLOCK_SIZE']), dtype = torch.int64).to(config['model']['device'])
+            # targets for loss computation
+            new_trg_y = torch.zeros((src.size(0), config['model']['BLOCK_SIZE']), dtype = torch.int64).to(config['model']['device']) # for each slot, the tokens yet to insert
+            self.trajectory = []
+            self.inserted = torch.zeros(src.size(0), dtype = torch.int64)
+            for i, train in enumerate(trg):
+            # current_sep = self.sep[i].item()
+                all_ixs = torch.arange(start = 1, end = first_pads[i]+1)
+                permuted_ixs = torch.randperm(all_ixs.size(0))
+                permuted_all_ixs = all_ixs[permuted_ixs]
+                self.trajectory.append(permuted_all_ixs)
+                # constructing actual y to be forwarded
+                vec = torch.full((config['model']['BLOCK_SIZE'],), CCG_to_idx['<UNK>'])
+                targets = torch.zeros(config['model']['BLOCK_SIZE']).to(config['model']['device'])
+                vec[0] = CCG_to_idx['<START>']
+                vec[self.sequence_lengths[i]+1] = CCG_to_idx['<END>']
+                vec[self.sequence_lengths[i]+2:] = CCG_to_idx['<PAD>']
+                new_trg[i] = vec
+                ins = 0
+                for j, ix in enumerate(vec):
+                    if ix == CCG_to_idx['<UNK>']:
+                        targets[ins] = train[j-1]
+                        ins+=1
+                new_trg_y[i] = targets
+            self.trg = new_trg
+            self.trg_y = new_trg_y
+            self.tree_tgt = tree_tgt
+            self.trg_mask = self.make_std_mask(self.trg, pad)
+            nonpads = (self.trg_y != pad).data.sum()
+            self.ntokens = nonpads
+
+            # print('trajectory:', self.trajectory)
+            self.embs = embs
+
+    def next_trajectory(self, locations):
+        """ Update the target with the next trajectory step. """
+        for i, ins in enumerate(self.inserted):
+            if ins >= self.sequence_lengths[i]:
+                continue
+            next_pos = locations[i]
+            next_tag_pos = self.trg_y[i][next_pos-1]
+            self.trg[i][next_pos] = next_tag_pos
+            self.inserted[i] += 1
+
     @staticmethod
     def make_std_mask(tgt, pad):
-        "Create a mask to hide padding and future words."
+        "Create a mask to hide padding"
         tgt_mask = (tgt != pad).unsqueeze(-2)
         tgt_mask = tgt_mask
         return tgt_mask
